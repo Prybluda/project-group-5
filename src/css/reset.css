@@ -41,4 +41,5 @@ img {
 }
 body{
   background-color: var(--dark-blue);
+  font-family: DM Sans;
 }
