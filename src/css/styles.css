@@ -4,7 +4,7 @@
 /* header */
 @import url();
 /* hero */
-@import url();
+@import url(./src/css/hero_section.css);
 /* products */
 @import url();
 
