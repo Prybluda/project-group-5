@@ -1,0 +1,63 @@
+<section class="rent">
+  <div class="container">
+
+    <h2 class="rent-title">Rent a yacht now</h2>
+
+    <picture>
+      <source srcset="../img/rent_img/yaht_under_title/laptop/imgyaht-dt.png 1x, 
+                      ../img/rent_img/yaht_under_title/laptop/imgyaht@2x-dt.png 2x" media="(min-width: 1200px)" />
+      <source srcset="../img/rent_img/yaht_under_title/tab/imgyaht-tab.png 1x, 
+                      ../img/rent_img/yaht_under_title/tab/imgyaht@2x-tab.png 2x" media="(min-width: 768px)" />
+      <source srcset="../img/rent_img/yaht_under_title/mob/imgyaht-mob.png 1x, 
+                      ../img/rent_img/yaht_under_title/mob/imgyaht@2x-mob.png 2x" media="(max-width: 767px)" />
+
+      <img class="rent-picture-under-title" src="../img/rent_img/yaht_under_title/laptop/imgyaht-dt.png" alt="Yaht"
+        width="259" height="187">
+    </picture>
+
+
+    <form class="rent-form">
+      <div class="rent-field">
+        <label class="rent-input-label" for="user-name">
+          <span class="rent-input-text">Full Name</span>
+        </label>
+        <div class="rent-input-line">
+          <input class="rent-input" type="text" id="user-name" name="user-name" required minlength="2">
+        </div>
+      </div>
+
+      <div class="rent-field">
+        <label for="input-email" class="rent-input-label">
+          <span class="rent-input-text">Email</span>
+        </label>
+        <div class="rent-input-line">
+          <input class="rent-input" type="email" id="input-email" name="input-email" required minlength="9">
+        </div>
+      </div>
+
+      <div class="rent-field">
+        <label class="rent-input-label" for="input-phone">
+          <span class="rent-input-text">Phone number</span>
+        </label>
+        <div class="rent-input-line">
+          <input class="rent-input" type="tel" id="input-phone" name="input-phone" required minlength="9">
+        </div>
+      </div>
+
+
+      <div class="rent-field comment-field">
+        <label class="rent-input-label" for="user-comment">
+          <span class="rent-input-text">Comment</span>
+        </label>
+        <textarea class="rent-input rent-textarea" name="user-comment" id="user-comment" cols="30" rows="10"></textarea>
+      </div>
+
+      <button class="rent-button" type="submit">
+        Send
+        <svg class="rent-button-icon">
+          <use href="../img/icon.svg#icon-arrow"></use>
+        </svg>
+      </button>
+    </form>
+  </div>
+</section>
