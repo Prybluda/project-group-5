@@ -1,8 +1,53 @@
 .about-section {
+  background-color: var(--dark-blue);
 }
+/* Base styles for small device */
+.about-container {
+  min-width: 320px;
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
+
+/* Tablet screen */
+@media screen and (min-width: 768px) {
+  .about-container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+/* Desktop screen */
+@media only screen and (min-width: 1280px) {
+  .about-container {
+    max-width: 1216px;
+  }
+}
+
 .about-description {
+  color: var(--white);
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -1.08px;
 }
 .about-accent-description {
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -1.08px;
+  background: var(
+    --linear-green,
+    linear-gradient(107deg, #bec7c2 0%, #a1b5ba 100%)
+  );
 }
 .about-description-list {
 }
