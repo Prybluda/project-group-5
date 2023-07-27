@@ -1,18 +1,5 @@
 @import url('./styles.css');
 
-/* тимчасові стилі */
-body {
-  background-color: var(--dark-blue);
-  font-family: DM Sans;
-}
-
-.container {
-  padding-left: 20px;
-  padding-right: 20px;  
-}
-/* тимчасові стилі */
-
-
 
 .rent-title {
   color: var(--white);
