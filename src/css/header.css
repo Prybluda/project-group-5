@@ -1,0 +1,52 @@
+.header-section {  
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    
+ }
+.container {
+}
+.header-nav {
+    
+}
+
+.header-logo-box {
+    display: flex;
+    align-items: center;
+    
+}
+.header-logo-icon {
+   fill: var(--linear-green), var(--linear-gradient);
+}
+.header-logo-link {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white);
+}
+.mob-menu-btn {
+}
+.js-open-menu {
+}
+.mob-menu-icon {
+}
+.header-nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.header-item {
+}
+.header-link { 
+font-size: 14px;
+font-weight: 700;
+line-height: 1.18; 
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--white);
+}

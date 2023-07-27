@@ -3,7 +3,7 @@
 @import url('./container.css');
 @import url('./variables.css');
 /* header */
-@import url();
+@import url(./header.css);
 /* hero */
 @import url();
 /* products */
@@ -15,4 +15,4 @@
 /* footer */
 @import url();
 /* modal */
-@import url();
+@import url(./menu.css);
