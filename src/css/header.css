@@ -1,5 +1,4 @@
 .header-section {
-      
 }
 .header-container {
     display: flex;
@@ -15,30 +14,10 @@
     align-items: center;
     gap: 3.5px;
 }
-.iconify{
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: azure;
+.logo-icon{
+
 }
-.iconify--logos{
-    width: 0.869140625em;
-    fill: currentColor;
-} 
-/* .icon {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: azure;
-}
-.icon-Rectangle-1 {
-    width: 0.869140625em;
-    fill: currentColor;
-} */
+
 .header-logo-link {
     display: block;
     font-size: 14px;
