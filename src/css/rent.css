@@ -31,21 +31,19 @@
 
   .rent-picture-under-title {
     width: 271px;
-    height: 187px;
+    height: 191px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .rent-container {
     gap: 188px;
-  }
-
-  .rent .rent-container {
-    max-width: 913px;
+    max-width: 960px;
   }
 
   .rent-top {
     max-width: 282px;
+    gap: 64px;
   }
 
   .rent-form {
@@ -66,34 +64,36 @@
   text-align: start;
 }
 
+.rent-field {
+  margin-bottom: 24px;
+  display: flex;
+  width: inherit;
+  flex-direction: column;
+}
+
 @media screen and (min-width: 768px) {
   .rent-title {
     font-size: 60px;
     letter-spacing: -2.7px;
     max-width: 287px;
   }
+
+  .rent-field{
+    margin-bottom: 28px;
+  }
+
+  .comment-field{
+    margin-bottom: 32px;
+  }
+
 }
 
-@media screen and (min-width: 1280px) {
-  .rent-title {
-  
+@media screen and (min-width: 1280px){
+  .comment-field {
+    margin-bottom: 64px;
   }
 }
 
-@media screen and (min-width:768px) {
-  .rent-picture-under-title {
-    margin-bottom: 0;
-  }
-}
-
-.rent-field {
-  margin-bottom: 24px;
-  display: flex;
-  width: inherit;
-
-  flex-direction: column;
-  align-items: normal;
-}
 
 .rent-input-label {
   color: var(--white);
@@ -109,7 +109,6 @@
   font-style: normal;
   font-weight: 500;
   line-height: 120%;
-  /* 19.2px */
   letter-spacing: -0.72px;
 }
 
@@ -138,9 +137,7 @@
     resize: none;
   }
    
-  .rent-field{
-    margin-bottom: 28px;
-  }
+  
 
 }
 
@@ -167,7 +164,6 @@
   fill: var(--white);
   width: 18px;
   height: 8.66px;
- 
 }
 
 
