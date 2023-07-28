@@ -1,0 +1,1 @@
+import './partials/rent-pop-up.js'; // підключення модального вікна для RentBlock

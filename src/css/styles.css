@@ -11,7 +11,10 @@
 
 @import url();
 
+/* rent block */
 @import url('./rent.css');
+/* rent modal */
+@import url('./rent-pop-up.css');
 
 @import url();
 /* footer */

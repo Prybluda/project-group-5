@@ -4,6 +4,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
+  max-width: 375px;  
 }
 
 .rent-top {
@@ -78,22 +79,20 @@
     max-width: 287px;
   }
 
-  .rent-field{
+  .rent-field {
     margin-bottom: 28px;
   }
 
-  .comment-field{
+  .comment-field {
     margin-bottom: 32px;
   }
-
 }
 
-@media screen and (min-width: 1280px){
+@media screen and (min-width: 1280px) {
   .comment-field {
     margin-bottom: 64px;
   }
 }
-
 
 .rent-input-label {
   color: var(--white);
@@ -127,8 +126,8 @@
   resize: none;
 }
 
-@media screen and (min-width:768px) {
-  .rent-input{
+@media screen and (min-width: 768px) {
+  .rent-input {
     height: 16px;
   }
 
@@ -136,9 +135,6 @@
     height: 58px;
     resize: none;
   }
-   
-  
-
 }
 
 .rent-button {
@@ -166,9 +162,8 @@
   height: 8.66px;
 }
 
-
-@media screen and (min-width:768px) {
-  .rent-button{
+@media screen and (min-width: 768px) {
+  .rent-button {
     font-size: 18px;
     letter-spacing: -0.81px;
     width: 132px;
