@@ -1,5 +1,10 @@
 @import url('./styles.css');
 
+body{
+  overflow-x: hidden;
+ 
+}
+
 .rent-container {
   display: flex;
   flex-wrap: wrap;
@@ -169,4 +174,19 @@
     width: 132px;
     height: 43px;
   }
+}
+
+
+.rent-gradient{
+  position: absolute;
+  top: 103%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  width: 265px;
+  height: 265px;
+  border-radius: 50%;
+  background: #91AFBA;
+  opacity: 0.6;
+  filter: blur(100px);
+  z-index: -10;
 }
