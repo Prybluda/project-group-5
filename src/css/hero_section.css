@@ -15,7 +15,7 @@ body {
 }
 
 .hero_title-luxury {
-  background: linear-gradient(107deg, #bec7c2 0%, #a1b5ba 100%);
+  background: var(--linear-green);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   /* font-style: italic; */
@@ -43,7 +43,7 @@ body {
   align-items: flex-start;
   gap: 10px;
   border-radius: 60px;
-  background: linear-gradient(107deg, #bec7c2 0%, #a1b5ba 100%);
+  background: var(--linear-green);
   border: none;
 }
 
@@ -70,15 +70,126 @@ body {
 
 .hero_img-group {
   margin-top: 40px;
+  position: relative;
 }
 
 .hero-image-bg {
   width: 335px;
   height: 427px;
+  z-index: -1;
 }
 
 .mask {
   -webkit-mask-image: url(../img/hero_sct_img/Mask\ group.png);
   -webkit-mask-size: 100%;
   -webkit-mask-repeat: no-repeat;
+  z-index: -1;
+}
+
+.hero_img-man {
+  position: absolute;
+  top: 35px;
+  left: 214px;
+  width: 133px;
+  height: 133px;
+}
+
+.hero_img-yaht {
+  position: absolute;
+  top: 152px;
+  left: 24px;
+  width: 287px;
+  height: 167px;
+  z-index: 3;
+}
+
+.hero_client {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 48px;
+  border: 2px solid #93abae;
+  background: #e3e3e3;
+}
+
+.client1,
+.client2,
+.client3 {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  z-index: 5;
+  background: 50% 2px / 160% no-repeat url(../img/hero_sct_img/team-1.jpg),
+    #e3e3e3;
+}
+
+.client2 {
+  left: 65px;
+  z-index: 4;
+  background: 50% / 160% no-repeat url(../img/hero_sct_img/team-2.jpg), #e3e3e3;
+}
+
+.client3 {
+  left: 106px;
+  z-index: 3;
+  background: 50% 3px / 180% no-repeat url(../img/hero_sct_img/team-3.jpg),
+    #e3e3e3;
+}
+
+.hero_our-client-text {
+  color: #11131f;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 15.4px */
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 85px;
+  left: 24px;
+  z-index: 3;
+}
+
+.hero-img-group_main-text {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 333px;
+  left: 24px;
+  gap: 14px;
+  color: #11131f;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 400;
+  z-index: 3;
+}
+
+.hero-img-group_main-text_12m {
+  font-size: 48px;
+  line-height: 110%;
+  letter-spacing: -2.16px;
+  text-transform: uppercase;
+}
+
+.hero-img-group_main-text_book {
+  width: 169px;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: -0.63px;
+}
+
+.hero_blur {
+  width: 279px;
+  height: 279px;
+  transform: rotate(-44.916deg);
+  flex-shrink: 0;
+  border-radius: 279px;
+  opacity: 0.8999999761581421;
+  background: #939cac;
+  filter: blur(100px);
+  position: absolute;
+  bottom: 112px;
+  right: 183px;
+  z-index: 0;
 }
