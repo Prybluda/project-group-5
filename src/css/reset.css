@@ -42,4 +42,5 @@ img {
 }
 body{
   background-color: var(--dark-blue);
+  margin: 0;
 }
