@@ -127,6 +127,13 @@ body {
   letter-spacing: -0.63px;
 }
 
+@media screen and (min-width:768px) {
+  .rent-input-label{
+    font-size: 16px;
+    letter-spacing: -0.72px;
+  }
+}
+
 .rent-input-text {
   font-size: 16px;
   font-style: normal;
@@ -198,7 +205,7 @@ body {
     font-size: 18px;
     letter-spacing: -0.81px;
     width: 132px;
-    height: 43px;
+    height: 48px;
   }
 }
 
