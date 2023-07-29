@@ -1,4 +1,17 @@
-.hero_title {
+.hero-section {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-section {
+    margin-top: 64px;
+    margin-bottom: 100px;
+  }
+}
+
+.hero_title,
+.hero_title_tablet {
   color: var(--white, #f6f5ef);
   font-family: DM Sans;
   font-size: 36px;
@@ -6,8 +19,30 @@
   font-weight: 500;
   line-height: 110%; /* 66px */
   letter-spacing: -2.7px;
-  margin-top: 40px;
   margin-bottom: 14px;
+  width: 332px;
+}
+
+.hero_title_tablet {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1158px) {
+  .hero_title_tablet {
+    display: block;
+    width: 698px;
+  }
+  .hero_title {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hero_title,
+  .hero_title_tablet {
+    font-size: 60px;
+    margin-bottom: 16px;
+  }
 }
 
 .hero_title-luxury {
@@ -15,6 +50,14 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   /* font-style: italic; */
+}
+
+@media only screen and (min-width: 768px) {
+  .hero_title-luxury {
+    font-size: 60px;
+    font-style: italic;
+    /* font-weight: 550; */
+  }
 }
 
 .main-text {
@@ -28,9 +71,19 @@
   margin-bottom: 24px;
 }
 
+@media only screen and (min-width: 768px) {
+  .main-text {
+    font-size: 16px;
+    letter-spacing: -0.32px;
+    max-width: 539px;
+    margin-bottom: 32px;
+  }
+}
+
 .hero_btn-div {
   display: flex;
   gap: 8px;
+  margin-bottom: 40px;
 }
 
 .hero_get-started_btn {
@@ -54,6 +107,14 @@
   letter-spacing: -0.63px;
 }
 
+@media only screen and (min-width: 768px) {
+  .hero_get-started_text,
+  .hero_explore_text {
+    font-size: 18px;
+    letter-spacing: -0.81px;
+  }
+}
+
 .hero_explore_btn {
   display: flex;
   padding: 14px 28px;
@@ -65,21 +126,32 @@
 }
 
 .hero_img-group {
-  margin-top: 40px;
-  margin-bottom: 80px;
   position: relative;
 }
 
 .hero-image-bg {
-  width: 335px;
   height: 427px;
+  width: 335px;
   z-index: -1;
 }
 
+@media only screen and (max-width: 767px) {
+  .hero-image-bg {
+    max-width: 335px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-image-bg {
+    width: 426px;
+    height: 598px;
+  }
+}
+
 .mask {
-  -webkit-mask-image: url(../img/hero_sct_img/Mask\ group.png);
+  /* -webkit-mask-image: url(../img/hero_sct_img/Mask\ group.png);
   -webkit-mask-size: 100%;
-  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat; */
   z-index: -1;
 }
 
@@ -91,6 +163,15 @@
   height: 133px;
 }
 
+@media only screen and (min-width: 768px) {
+  .hero_img-man {
+    top: 32px;
+    left: 339px;
+    width: 233px;
+    height: 233px;
+  }
+}
+
 .hero_img-yaht {
   position: absolute;
   top: 152px;
@@ -100,6 +181,15 @@
   z-index: 3;
 }
 
+@media only screen and (min-width: 768px) {
+  .hero_img-yaht {
+    top: 225px;
+    left: 24px;
+    width: 378px;
+    height: 221px;
+  }
+}
+
 .hero_client {
   width: 48px;
   height: 48px;
@@ -107,6 +197,14 @@
   border-radius: 48px;
   border: 2px solid #93abae;
   background: #e3e3e3;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero_client {
+    width: 56px;
+    height: 56px;
+    border-radius: 56px;
+  }
 }
 
 .client1,
@@ -127,11 +225,23 @@
     #e3e3e3;
 }
 
+@media only screen and (min-width: 768px) {
+  .client2 {
+    left: 69px;
+  }
+}
+
 .client3 {
   left: 106px;
   z-index: 3;
   background: 50% 3px / 180% no-repeat url(../img/hero_sct_img/client-3.jpg),
     #e3e3e3;
+}
+
+@media only screen and (min-width: 768px) {
+  .client3 {
+    left: 110px;
+  }
 }
 
 .hero_our-client-text {
@@ -149,6 +259,13 @@
   z-index: 3;
 }
 
+@media only screen and (min-width: 768px) {
+  .hero_our-client-text {
+    top: 99px;
+    left: 32px;
+  }
+}
+
 .hero-img-group_main-text {
   display: flex;
   align-items: center;
@@ -163,11 +280,25 @@
   z-index: 3;
 }
 
+@media only screen and (min-width: 768px) {
+  .hero-img-group_main-text {
+    top: 468px;
+    left: 37px;
+  }
+}
+
 .hero-img-group_main-text_12m {
   font-size: 48px;
   line-height: 110%;
   letter-spacing: -2.16px;
   text-transform: uppercase;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-img-group_main-text_12m {
+    font-size: 60px;
+    letter-spacing: -2.7px;
+  }
 }
 
 .hero-img-group_main-text_book {
@@ -190,4 +321,15 @@
   bottom: 112px;
   right: 183px;
   z-index: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero_blur {
+    width: 414px;
+    height: 414px;
+    transform: rotate(-44.094deg);
+    border-radius: 414px;
+    bottom: 68px;
+    right: 510px;
+  }
 }
