@@ -227,6 +227,14 @@
   position: relative;
 }
 
+@media only screen and (min-width: 768px) {
+  .image-container {
+    position: relative;
+    bottom: 23px;
+    left: 407px;
+  }
+}
+
 .image-container img {
   position: relative;
   top: 0;
@@ -238,8 +246,8 @@
 
 @media only screen and (min-width: 768px) {
   .image-container img {
-    top: -122px;
-    left: -166px;
+    top: -119px;
+    left: -540px;
   }
 }
 @media only screen and (min-width: 1280px) {
@@ -260,7 +268,9 @@
 
 @media only screen and (min-width: 768px) {
   .gradient-overlay {
-    top: -120px;
+    position: absolute;
+    top: -118px;
+    left: -421px;
   }
 }
 
