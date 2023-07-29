@@ -1,7 +1,3 @@
-body {
-  background-color: var(--dark-blue);
-}
-
 .hero_title {
   color: var(--white, #f6f5ef);
   font-family: DM Sans;
@@ -43,7 +39,7 @@ body {
   align-items: flex-start;
   gap: 10px;
   border-radius: 60px;
-  background: var(--linear-green);
+  background: var(--linear-green, #93abae);
   border: none;
 }
 
@@ -54,7 +50,7 @@ body {
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
-  line-height: 110%; /* 15.4px */
+  line-height: 110%;
   letter-spacing: -0.63px;
 }
 
@@ -70,6 +66,7 @@ body {
 
 .hero_img-group {
   margin-top: 40px;
+  margin-bottom: 80px;
   position: relative;
 }
 
