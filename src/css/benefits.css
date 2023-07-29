@@ -36,8 +36,9 @@
     }
 }
 .benefits-img {
-
+display: block;
 }
+
 
 @media only screen and (min-width: 768px) {
   .benefits-img {
@@ -54,13 +55,22 @@
 }
 
 .benefits-list-img {
-   border-radius: 20%;
-   flex-basis: calc((100% - 64px) / 2);
    position: relative;
+}
+@media only screen and (max-width: 767px) {
+  .benefits-list-img:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .benefits-list-img {
+  flex-basis: calc((100% - 64px) / 2);
+  }
 }
 
 .img-text {
-    position: absolute;
+    
 }
 
 .text {
@@ -76,17 +86,29 @@
     padding: 14px 28px;
     border-radius: 60px;
     background: var(--white, #F6F5EF);
+    position: absolute;
+    left: 32px;
+    bottom: 92px;
 }
 .ben-img {
 border-radius: 40px;
-
+margin-right: auto;
+margin-left: auto;
 }
 .diving-img {
- /* position: absolute; */
+  /* max-width: 335px;
+  max-height: 335px; */
 }
 .fishing-img {
-/* position: absolute; */
+  /* max-width: 335px;
+  max-height: 335px; */
 }
-.sunbathing-img {
-/* position: absolute; */
+ .sunbathing-img {
+  /* max-width: 335px;
+  max-height: 335px; */
+ }
+@media only screen and (min-width: 1280px) {
+  .sunbathing-img {
+    margin-left: 372px;
+  }
 }
