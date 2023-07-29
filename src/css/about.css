@@ -99,6 +99,8 @@
 /* Desktop */
 @media only screen and (min-width: 1280px) {
   .about-description-list {
+    margin-top: -190px;
+    margin-bottom: 64px;
   }
 }
 
@@ -141,17 +143,25 @@
   .yachts-mobil-img-1 {
     margin-bottom: 32px;
   }
+}
+
+@media only screen and (min-width: 1280px) {
+  .yachts-mobil-img-1 {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 768px) {
   .yachts-mobil-img-2 {
     margin: 0;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  .yachts-mobil-img-1 {
-    margin-bottom: 0;
-  }
   .yachts-mobil-img-2 {
     margin: 0;
+    position: relative;
+    top: -220px;
   }
 }
 
@@ -234,8 +244,8 @@
 }
 @media only screen and (min-width: 1280px) {
   .image-container img {
-    top: 0;
-    left: 0;
+    top: -234px;
+    left: -615px;
   }
 }
 
@@ -251,5 +261,11 @@
 @media only screen and (min-width: 768px) {
   .gradient-overlay {
     top: -120px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .gradient-overlay {
+    top: -233px;
   }
 }
