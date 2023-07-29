@@ -1,22 +1,41 @@
-@import url('./styles.css');
-
-body{
+html{
   overflow-x: hidden;
- 
+}
+
+body {
+  overflow: hidden;
+}
+
+.rent {
+  position: relative;
+  padding-bottom: 80px;
+  
+}
+
+@media screen and (min-width: 768px) {
+  .rent {
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .rent {
+    padding-bottom: 164px;
+  }
 }
 
 .rent-container {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
-  max-width: 375px;  
+  max-width: 375px;
 }
 
 .rent-top {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  max-width: 271px;
+  max-width: 335px;
 }
 
 @media screen and (min-width: 768px) {
@@ -32,7 +51,7 @@ body{
   }
 
   .rent-form {
-    max-width: 365px;
+    max-width: 364px;
   }
 
   .rent-picture-under-title {
@@ -44,7 +63,7 @@ body{
 @media screen and (min-width: 1280px) {
   .rent-container {
     gap: 188px;
-    max-width: 960px;
+    max-width: 976px;
   }
 
   .rent-top {
@@ -126,6 +145,13 @@ body{
   background-color: transparent;
 }
 
+.error-border{
+  border-width: 0 0 2px 0;
+  border-style: none none solid none;
+  border-color: #f30d0d36;
+  transition: border-color 0.3s ease;
+}
+
 .rent-textarea {
   height: 75px;
   resize: none;
@@ -176,17 +202,31 @@ body{
   }
 }
 
-
-.rent-gradient{
+.rent-gradient {
   position: absolute;
-  top: 103%;
-  left: 100%;
-  transform: translate(-50%, -50%);
+  z-index: -1;
+  top: 66%;
+  left: 80%;
   width: 265px;
   height: 265px;
-  border-radius: 50%;
+  border-radius: 100%;
   background: #91AFBA;
   opacity: 0.6;
   filter: blur(100px);
-  z-index: -10;
 }
+
+
+@media screen and (min-width:768px) {
+  .rent-gradient{
+    top: 29%;
+    left: 81%;
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .rent-gradient{
+    left: 88%;
+  }
+}
+
+
