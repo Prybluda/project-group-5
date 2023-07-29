@@ -2,32 +2,9 @@
   text-align: start;
   font-family: DM Sans;
 }
-.container-one {
-  min-width: 320px;
-  max-width: 335px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 41px;
-}
-
-@media only screen and (min-width: 768px) {
-  .container-one {
-    min-width: 768px;
-    padding: 64px 32px 16px 32px;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  .container-one {
-    min-width: 1280px;
-    padding: 64px 32px 16px 32px;
-  }
-}
 
 .footer-logo {
   color: var(--white);
-
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -35,6 +12,14 @@
   letter-spacing: 0.42px;
   display: inline-block;
 }
+
+@media only screen and (min-width: 768px) {
+  .jacht-icon {
+    width: 20px;
+    height: 23px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .footer-logo {
     color: var(--white);
@@ -109,6 +94,7 @@
 @media only screen and (min-width: 768px) {
   .footer-year {
     gap: 32px;
+    margin-top: 100px;
   }
 }
 .footer-about {
@@ -117,7 +103,7 @@
 
 .footer-container {
   border-top: 1px solid #f6f5ef;
-  height: 334px;
+  padding-top: 41px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -139,5 +125,34 @@
   .footer-block-menu {
     display: flex;
     gap: 24px;
+  }
+}
+.footer-blur {
+  width: 420px;
+  height: 420px;
+  transform: rotate(-45.408deg);
+  flex-shrink: 0;
+  border-radius: 420px;
+  opacity: 0.6000000238418579;
+  background: var(--light-green, #93abae);
+  filter: blur(100px);
+}
+@media only screen and (min-width: 768px) {
+  .footer-blur {
+    width: 419px;
+    height: 419px;
+    flex-shrink: 0;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .footer-blur {
+    width: 415px;
+    height: 415px;
+    transform: rotate(-45.044deg);
+    flex-shrink: 0;
+    border-radius: 415px;
+    opacity: 0.6000000238418579;
+    background: #93abae;
+    filter: blur(100px);
   }
 }
