@@ -200,6 +200,8 @@
     display: none;
   }
 }
+
+/* Visual desktop */
 @media only screen and (min-width: 1280px) {
   .yachts-mobil-item {
     display: none;
@@ -292,4 +294,8 @@
     left: 278px;
     width: 30%;
   }
+}
+.rt1234 {
+  position: relative;
+  z-index: 1;
 }
