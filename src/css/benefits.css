@@ -1,0 +1,87 @@
+.benefits-section {
+    margin-bottom: 80px;
+}
+@media only screen and (min-width: 768px) {
+  .benefits-section {
+    margin-bottom: 105px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+    .benefits-section {
+        margin-bottom: 164px;
+    }
+}
+
+.container {
+    min-width: 320px;
+    max-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1216px;
+
+    }
+}
+.benefits-img {
+
+}
+
+@media only screen and (min-width: 768px) {
+  .benefits-img {
+    
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .benefits-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px;
+  }
+}
+
+.benefits-list-img {
+   border-radius: 20%; 
+}
+
+.img-text {}
+
+.text {
+    color: var(--dark-blue);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 110%;
+    /* 15.4px */
+    letter-spacing: -0.63px;
+
+    display: inline-block;
+    padding: 14px 28px;
+    border-radius: 60px;
+    background: var(--white, #F6F5EF);
+}
+.ben-img {
+border-radius: 40px;
+}
+.diving-img {
+
+}
+.fishing-img {
+
+}
+.sunbathing-img {
+
+}
