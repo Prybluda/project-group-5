@@ -148,7 +148,7 @@ body {
 .error-border{
   border-width: 0 0 2px 0;
   border-style: none none solid none;
-  border-color: #f30d0d36;
+  border-color: var(--error-border);
   transition: border-color 0.3s ease;
 }
 
@@ -228,5 +228,3 @@ body {
     left: 88%;
   }
 }
-
-

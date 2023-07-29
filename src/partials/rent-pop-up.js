@@ -1,7 +1,7 @@
 let isValid = false;
 const minLength = 2;
 const maxLength = 30;
-const namePattern = /^[A-Za-z]+$/;
+const namePattern = /^[A-Za-z]+(?:\s[A-Za-z]+)?$/;
 const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const phonePattern = /^\+?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}$/;
 
