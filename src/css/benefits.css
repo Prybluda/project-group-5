@@ -57,7 +57,9 @@
    border-radius: 20%; 
 }
 
-.img-text {}
+.img-text {
+    position: relative;
+}
 
 .text {
     color: var(--dark-blue);
@@ -75,13 +77,14 @@
 }
 .ben-img {
 border-radius: 40px;
+position: absolute;
 }
 .diving-img {
-
+ /* position: absolute; */
 }
 .fishing-img {
-
+/* position: absolute; */
 }
 .sunbathing-img {
-
+/* position: absolute; */
 }
