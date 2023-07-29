@@ -116,20 +116,21 @@
   top: 24px;
   left: 24px;
   z-index: 5;
-  background: 50% 2px / 160% no-repeat url(../img/hero_sct_img/team-1.jpg),
+  background: 50% 2px / 160% no-repeat url(../img/hero_sct_img/client-1.jpg),
     #e3e3e3;
 }
 
 .client2 {
   left: 65px;
   z-index: 4;
-  background: 50% / 160% no-repeat url(../img/hero_sct_img/team-2.jpg), #e3e3e3;
+  background: 50% / 160% no-repeat url(../img/hero_sct_img/client-2.jpg),
+    #e3e3e3;
 }
 
 .client3 {
   left: 106px;
   z-index: 3;
-  background: 50% 3px / 180% no-repeat url(../img/hero_sct_img/team-3.jpg),
+  background: 50% 3px / 180% no-repeat url(../img/hero_sct_img/client-3.jpg),
     #e3e3e3;
 }
 
