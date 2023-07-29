@@ -1,19 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
   <defs>
-  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
-  <mask id="a" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="18" height="18">
-    <path d="M0 14.412 4.06 18h11.912l1.705-2.396L.002 14.412H0ZM10.489 0v14.305l5.481.377L10.49 0Zm-.747 2.41-7.92 11.27 7.92.536V2.41Z" fill="#fff"/>
-  </mask>
-  <g mask="url(#a)">
-    <path d="M0 0h18v18H0V0Z" fill="url(#b)"/>
-  </g>
-  <defs>
-    <linearGradient id="b" x1="7.665" y1="0" x2="16.858" y2=".348" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#BEC7C2"/>
-      <stop offset="1" stop-color="#A1B5BA"/>
-    </linearGradient>
-  </defs>
-</svg>
+
   <!-- burger -->
     <symbol id="icon-gg_menu-left" viewBox="0 0 32 32">
       <path d="M2.667 7.993c0-.733.595-1.327 1.327-1.327h10.68a1.326 1.326 0 0 1 0 2.654H3.994a1.326 1.326 0 0 1-1.327-1.327zm0 8.007c0-.733.595-1.327 1.327-1.327h24.013a1.326 1.326 0 0 1 0 2.654H3.994A1.326 1.326 0 0 1 2.667 16zm1.326 6.68a1.326 1.326 0 0 0 0 2.654h16.013a1.326 1.326 0 0 0 0-2.654H3.993z"/>
