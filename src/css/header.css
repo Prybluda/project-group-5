@@ -19,7 +19,7 @@
     align-items: center;
     gap: 8px;
 }
-.logo-icon{
+.icon-logo{
     fill: var(--linear-green);
     width: 18px;
     height: 18px;
