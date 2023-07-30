@@ -27,9 +27,7 @@
 .hero_title,
 .hero_title_tablet {
   color: var(--white, #f6f5ef);
-  font-family: DM Sans;
   font-size: 36px;
-  font-style: normal;
   font-weight: 500;
   line-height: 110%; /* 66px */
   letter-spacing: -2.7px;
@@ -84,10 +82,7 @@
 
 .main-text {
   color: var(--white, #f6f5ef);
-  font-family: DM Sans;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 140%; /* 19.6px */
   letter-spacing: -0.28px;
   margin-bottom: 24px;
@@ -121,9 +116,7 @@
 .hero_get-started_text,
 .hero_explore_text {
   color: var(--white, #f6f5ef);
-  font-family: DM Sans;
   font-size: 14px;
-  font-style: normal;
   font-weight: 700;
   line-height: 110%;
   letter-spacing: -0.63px;
@@ -268,9 +261,7 @@
 
 .hero_our-client-text {
   color: #11131f;
-  font-family: DM Sans;
   font-size: 14px;
-  font-style: normal;
   font-weight: 700;
   line-height: 110%; /* 15.4px */
   letter-spacing: 0.56px;
@@ -296,9 +287,6 @@
   left: 24px;
   gap: 14px;
   color: #11131f;
-  font-family: DM Sans;
-  font-style: normal;
-  font-weight: 400;
   z-index: 3;
 }
 
