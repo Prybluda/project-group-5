@@ -46,6 +46,7 @@ picture {
 @media only screen and (min-width: 768px) {
   .yachts-section-pretext {
     max-width: 640px;
+
     margin-bottom: 100px;
   }
 }
