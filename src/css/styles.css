@@ -5,9 +5,14 @@
 /* header */
 @import url('./header.css');
 /* hero */
+
+@import url();
+
+
 @import url(./hero_section.css);
 /* products */
-@import url();
+@import url('./about.css');
+
 
 @import url();
 
@@ -18,5 +23,9 @@
 
 @import url();
 
+
+@import url();
+
 @import url('./mob-menu.css');
+
 
