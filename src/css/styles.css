@@ -14,11 +14,18 @@
 @import url('./about.css');
 
 
+
 @import url('./yachts-section.css');
 
 
 @import url('./benefits.css');
 /* benefits */
+
+/* rent block */
+@import url('./rent.css');
+/* rent modal */
+@import url('./rent-pop-up.css');
+
 @import url();
 /* footer */
 @import url();
