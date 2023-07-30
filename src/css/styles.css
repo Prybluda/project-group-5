@@ -27,16 +27,18 @@
 @import url('./rent-pop-up.css');
 
 @import url(./reviews.css);
+
+
+
+
 /* footer */
-@import url();
+@import url(./footer.css);
 /* modal */
-
 @import url();
 
-
-@import url();
 
 
 @import url();
 
 @import url('./mob-menu.css');
+
