@@ -50,4 +50,9 @@ body{
   background-color: var(--dark-blue);
   margin: 0;
   overflow: hidden;
+
+  font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
 }
+
