@@ -5,7 +5,7 @@
 /* header */
 @import url('./header.css');
 /* hero */
-@import url();
+@import url(./hero_section.css);
 /* products */
 @import url();
 
@@ -15,4 +15,8 @@
 /* footer */
 @import url();
 /* modal */
+
+@import url();
+
 @import url('./mob-menu.css');
+
