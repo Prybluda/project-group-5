@@ -1,3 +1,11 @@
+@media only screen and (min-width: 1280px) {
+  .hero_main-div {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+}
+
 .hero-section {
   margin-top: 40px;
   margin-bottom: 80px;
@@ -7,6 +15,12 @@
   .hero-section {
     margin-top: 64px;
     margin-bottom: 100px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hero-section {
+    margin-bottom: 164px;
   }
 }
 
@@ -27,7 +41,7 @@
   display: none;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1158px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .hero_title_tablet {
     display: block;
     width: 698px;
@@ -42,6 +56,16 @@
   .hero_title_tablet {
     font-size: 60px;
     margin-bottom: 16px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hero_title_tablet {
+    display: none;
+  }
+  .hero_title {
+    display: block;
+    width: 554px;
   }
 }
 
@@ -308,13 +332,15 @@
   letter-spacing: -0.63px;
 }
 
-.hero_blur {
+.hero_blur,
+.hero_blur2,
+.hero_blur3 {
   width: 279px;
   height: 279px;
-  transform: rotate(-44.916deg);
+  transform: rotate(-45deg);
   flex-shrink: 0;
   border-radius: 279px;
-  opacity: 0.8999999761581421;
+  opacity: 0.9;
   background: #939cac;
   filter: blur(100px);
   position: absolute;
@@ -323,13 +349,39 @@
   z-index: 0;
 }
 
+.hero_blur2,
+.hero_blur3 {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
-  .hero_blur {
+  .hero_blur,
+  .hero_blur2,
+  .hero_blur3 {
     width: 414px;
     height: 414px;
-    transform: rotate(-44.094deg);
     border-radius: 414px;
     bottom: 68px;
     right: 510px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hero_blur {
+    bottom: -40px;
+    right: 50px;
+  }
+  .hero_blur2 {
+    display: block;
+    bottom: 18px;
+    right: 300px;
+  }
+  .hero_blur3 {
+    display: block;
+    width: 316px;
+    height: 316px;
+    border-radius: 316px;
+    bottom: 100px;
+    right: -58px;
   }
 }
