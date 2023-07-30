@@ -108,8 +108,17 @@
         gap: 32px;
         flex-wrap: wrap;
         flex-direction: row;
-
     }
+}
+
+.rev-card-description {
+    display: flex;
+    width: 335px;
+    padding: 0 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
 }
 
 .reviews-card {
@@ -129,7 +138,6 @@
     .reviews-card {
         width: calc((100% - 32px) / 2);
         padding: 24px 32px;
-
     }
 }
 
@@ -138,7 +146,6 @@
         display: flex;
         width: calc((100% - 64px) / 3);
         padding: 32px 25px;
-        flex-direction: column;
     }
 }
 
