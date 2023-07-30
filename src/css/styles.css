@@ -3,13 +3,23 @@
 @import url('./container.css');
 @import url('./variables.css');
 /* header */
-@import url();
+@import url('./header.css');
 /* hero */
-@import url();
-/* products */
-@import url();
 
 @import url();
+
+
+@import url('./hero_section.css');
+/* products */
+@import url('./about.css');
+
+
+
+@import url('./yachts-section.css');
+
+
+@import url('./benefits.css');
+/* benefits */
 
 /* rent block */
 @import url('./rent.css');
@@ -20,4 +30,13 @@
 /* footer */
 @import url();
 /* modal */
+
 @import url();
+
+
+@import url();
+
+
+@import url();
+
+@import url('./mob-menu.css');
