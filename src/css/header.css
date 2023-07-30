@@ -1,6 +1,6 @@
 
 .header-container {
-    max-width: 375px;
+    max-width: inherit;
     background-size: cover;
     font-family: 'DM Sans';
  }
@@ -92,7 +92,7 @@ color: var(--white);
         display: none;
      }
      .header-container{
-        max-width: 768px;
+        max-width: inherit;
         padding-left: 32px;
         padding-right: 32px;
      }

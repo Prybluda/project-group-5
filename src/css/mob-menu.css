@@ -133,11 +133,12 @@
     background: linear-gradient(45deg, #939CAC, transparent);
     opacity: 0.9;
     filter: blur(100px);
+    overflow: hidden;
  }
  .menu-gradient-l{
     position: absolute;
-    top: 65%;
-    left: -60%;
+    top: 60%;
+    right: 89%;
     width: 279px;
     height: 279px;
     transform: rotate(-44.916deg);
@@ -146,4 +147,5 @@
     background: linear-gradient(45deg, #91AFBA, transparent);
     opacity: 0.6;
     filter: blur(100px);
+    overflow: hidden;
  }
