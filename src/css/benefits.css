@@ -1,0 +1,221 @@
+/* base style */
+.section {
+    margin-bottom: 80px;
+}
+@media only screen and (min-width: 768px) {
+  .section {
+    margin-bottom: 105px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+    .section {
+        margin-bottom: 164px;
+    }
+}
+
+.container {
+    min-width: 320px;
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+
+    }
+}
+
+/* adaptive */
+@media only screen and (min-width: 768px) {
+  .section-mob {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .section-tab {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .section-tab {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1279px) {
+  .section-desc {
+    display: none;
+  }
+}
+/* postion and display */
+.benefits-img {
+display: block;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .benefits-img {
+    
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .benefits-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px;
+  }
+}
+
+.benefits-list-img {}
+
+@media only screen and (max-width: 767px) {
+  .benefits-list-img:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .benefits-list-img:not(:last-child) {
+    margin-bottom: 32px;
+  }
+}
+.benefits-style {
+  position: relative;
+}
+/* image text style */
+.text-img {
+    color: var(--dark-blue);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 110%;
+    /* 15.4px */
+    letter-spacing: -0.63px;
+
+    display: inline-block;
+    padding: 14px 28px;
+    border-radius: 60px;
+    background: var(--white, #F6F5EF);
+}
+
+@media only screen and (min-width: 768px) {
+  .text-img {
+      font-size: 18px;
+      letter-spacing: -0.81px;
+  }
+}
+
+/* position text */
+.position-text-diving {
+ position: absolute;
+ left: 32px;
+ bottom: 32px;
+}
+.position-text-fishing {
+  position: absolute;
+  left: 32px;
+  bottom: 32px;
+}
+.position-text-sunbathing {
+  position: absolute;
+  left: 32px;
+  bottom: 32px;
+}
+@media only screen and (max-width: 767px) {
+  .position-text-diving {
+      left: 24px;
+      bottom: 24px;
+    }
+  
+    .position-text-fishing {
+      left: 24px;
+      bottom: 24px;
+    }
+  
+    .position-text-sunbathing {
+      left: 24px;
+      bottom: 24px;
+    }
+}
+
+
+/* image style */
+.ben-img {
+border-radius: 41px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .ben-img {
+  border-radius: 44px;
+  }
+}
+/* adaptive position */
+.diving-img {}
+
+.fishing-img {}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .benefits-list-img-fishing {
+    margin-left: 304px;
+  }
+}
+
+ .sunbathing-img {}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .benefits-list-img-sunbathing {
+    margin-left: 32px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .benefits-list-img-sunbathing {
+    margin-left: 340px;
+  }
+}
+
+/* Blur effect */
+.blur-effect {
+  width: 414px;
+  height: 414px;
+  transform: rotate(-45.074deg);
+
+  border-radius: 414px;
+  opacity: 0.6000000238418579;
+  background: #91AFBA;
+  filter: blur(100px);
+  z-index: -5;
+  position: absolute;
+  left: -207px;
+  top: 280px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .blur-effect {
+    top: 550px;
+  }
+}
+
+.blur-effect-mobile {
+  width: 323px;
+  height: 323px;
+  transform: rotate(-44.916deg);
+
+  border-radius: 323px;
+  opacity: 0.6000000238418579;
+  background: #91AFBA;
+  filter: blur(100px);
+  z-index: -5;
+  position: absolute;
+  left: -207px;
+  top: 280px;
+}

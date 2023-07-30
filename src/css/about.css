@@ -1,0 +1,301 @@
+:root {
+  --white: #f6f5ef;
+  --dark-blue: #11131f;
+  --blue-two: #1f212d;
+  --linear-green: rgba(190, 199, 194, 1), rgba(161, 181, 186, 1);
+  --linear-gradient: #00000000, #11131f;
+  --light-green: #93abae;
+}
+
+.about-section {
+  background-color: var(--dark-blue);
+}
+/* Base styles for small device */
+.about-container {
+  min-width: 320px;
+  max-width: 375px;
+  height: 1492px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  /* outline: 2px solid red;
+  outline-offset: -2px; */
+}
+
+/* Tablet screen */
+@media screen and (min-width: 768px) {
+  .about-container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+    height: 1573px;
+  }
+}
+/* Desktop screen */
+@media only screen and (min-width: 1280px) {
+  .about-container {
+    max-width: 1216px;
+    height: 927px;
+  }
+}
+
+/* Base styles for small device */
+.about-description {
+  color: var(--white);
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -1.08px;
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-description {
+    font-size: 32px;
+    max-width: 539px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-description {
+  }
+}
+/* Base styles for small device */
+.about-accent-description {
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -1.08px;
+  color: var(--light-green);
+}
+
+/* Tablet screen */
+@media screen and (min-width: 768px) {
+  .about-accent-description {
+    font-size: 32px;
+  }
+}
+/* Desktop screen */
+@media only screen and (min-width: 1280px) {
+}
+
+/* Base styles for small device */
+.about-description-list {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 40px;
+  justify-content: space-between;
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+  .about-description-list {
+    justify-content: flex-end;
+    gap: 32px;
+  }
+}
+/* Desktop */
+@media only screen and (min-width: 1280px) {
+  .about-description-list {
+    margin-top: -190px;
+    margin-bottom: 64px;
+  }
+}
+
+.about-description-item {
+}
+
+/* Base styles for small device */
+.about-extdescription {
+  color: var(--white);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.28px;
+  width: 160px;
+}
+/* Tablet */
+@media only screen and (min-width: 768px) {
+  .about-extdescription {
+    font-size: 16px;
+    letter-spacing: -0.32px;
+    width: 183px;
+  }
+}
+/* Desktop */
+@media only screen and (min-width: 1280px) {
+  .about-extdescription {
+  }
+}
+.yachts {
+  /* max-width: 100%; */
+}
+.yachts-mobil-img-1,
+.yachts-mobil-img-2 {
+  margin-bottom: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .yachts-mobil-img-1 {
+    margin-bottom: 32px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .yachts-mobil-img-1 {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .yachts-mobil-img-2 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .yachts-mobil-img-2 {
+    margin: 0;
+    position: relative;
+    top: -220px;
+  }
+}
+
+.yachts-mobil-img-3 {
+  border-radius: 24px;
+  /* background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #11131f 100%),
+    url(<path-to-image>), lightgray -86.838px 0px / 166.799% 100% no-repeat; */
+  margin-left: auto;
+  /* position: absolute; */
+}
+.yachts-list {
+}
+/* Visual mob */
+.yachts-mobile-item {
+  /* display: block; */
+}
+.yachts-tabl-item {
+  display: none;
+}
+.yachts-dsk-item {
+  display: none;
+}
+
+/* Visual tab */
+@media only screen and (min-width: 768px) {
+  .yachts-mobile-item {
+    display: none;
+  }
+  .yachts-tabl-item {
+    display: block;
+  }
+  .yachts-dsk-item {
+    display: none;
+  }
+}
+
+/* Visual desktop */
+@media only screen and (min-width: 1280px) {
+  .yachts-mobil-item {
+    display: none;
+  }
+  .yachts-tabl-item {
+    display: none;
+  }
+  .yachts-dsk-item {
+    display: block;
+  }
+}
+
+.yachts-tab-item {
+  /* display: none; */
+}
+@media only screen and (min-width: 768px) {
+  .yachts-mobil-item {
+    display: block;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .yachts-mobil-item {
+    display: none;
+  }
+}
+
+.image-container {
+  position: relative;
+}
+
+@media only screen and (min-width: 768px) {
+  .image-container {
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .image-container {
+  }
+}
+
+.image-container img {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  max-width: 260px;
+  height: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .image-container img {
+    top: -90px;
+    left: -168px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .image-container img {
+    top: -234px;
+    left: -618px;
+  }
+}
+
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #11131f 100%);
+  /* left: 112px;
+  width: 267px; */
+}
+
+@media only screen and (min-width: 768px) {
+  .gradient-overlay {
+    /* position: absolute;
+    top: -118px;
+    left: -14px; */
+    top: -89px;
+    left: 260px;
+    width: 350px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .gradient-overlay {
+    top: -231px;
+    /* left: 335px;
+    width: 265px; */
+    left: 278px;
+    width: 30%;
+  }
+}
+.rt1234 {
+  position: relative;
+  z-index: 1;
+}
