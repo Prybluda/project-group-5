@@ -9,6 +9,11 @@ p {
   margin: 0;
 }
 
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
 p:last-child {
   margin-bottom: 0;
 }
@@ -41,5 +46,8 @@ img {
   box-sizing: border-box;
 }
 body{
+  padding: 0;
   background-color: var(--dark-blue);
+  margin: 0;
+  overflow: hidden;
 }
