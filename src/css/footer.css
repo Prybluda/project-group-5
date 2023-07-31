@@ -103,6 +103,7 @@
 
 .footer-container {
   border-top: 1px solid #f6f5ef;
+  position: relative;
   padding-top: 41px;
 }
 
@@ -136,12 +137,16 @@
   opacity: 0.6000000238418579;
   background: var(--light-green, #93abae);
   filter: blur(100px);
+  top: 80%;
+  position: absolute;
+  overflow: hidden;
 }
 @media only screen and (min-width: 768px) {
   .footer-blur {
     width: 419px;
     height: 419px;
     flex-shrink: 0;
+    left: 30%;
   }
 }
 @media only screen and (min-width: 1280px) {
@@ -154,5 +159,6 @@
     opacity: 0.6000000238418579;
     background: #93abae;
     filter: blur(100px);
+    left: 20%;
   }
 }
