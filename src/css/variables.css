@@ -2,7 +2,7 @@
     --white:#F6F5EF;
     --dark-blue: #11131F;
     --blue-two:#1F212D;
-    --linear-green: linear-gradient (107deg, #BEC7C2 0%, #A1B5BA 100%);
+    --linear-green: linear-gradient(107deg, #BEC7C2 0%, #A1B5BA 100%);
     --linear-gradient:(107deg, #bec7c2 0%, #a1b5ba 100%);
     --light-green: #93ABAE;
     --error-border: #f30d0d36; /*RentBlock*/
