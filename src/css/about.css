@@ -1,15 +1,3 @@
-:root {
-  --white: #f6f5ef;
-  --dark-blue: #11131f;
-  --blue-two: #1f212d;
-  --linear-green: rgba(190, 199, 194, 1), rgba(161, 181, 186, 1);
-  --linear-gradient: #00000000, #11131f;
-  --light-green: #93abae;
-}
-
-.about-section {
-  background-color: var(--dark-blue);
-}
 /* Base styles for small device */
 .about-container {
   height: 1428px;
