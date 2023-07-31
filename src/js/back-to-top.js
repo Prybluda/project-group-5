@@ -1,46 +1,52 @@
 
-const goTopBtn = document.querySelector(".backtotop");
 
-window.addEventListener("scroll", trackScroll);
-goTopBtn.addEventListener("click", goTop);
+function checkScrollPosition() {
+  const backToTopBtn = document.querySelector(".backtotop");
+  const scrollPosition = window.scrollY || document.documentElement.scrollTop;
 
-function trackScroll() {
-  const scrolled = window.scrollY;
-  const coords = document.documentElement.clientHeight;
-  if (scrolled > coords) {
-    goTopBtn.classList.add("backtotop--show");
+  if (scrollPosition >= 300) {
+      backToTopBtn.classList.add('backtotop-show');
   } else {
-    goTopBtn.classList.remove("backtotop--show");
+      backToTopBtn.classList.remove('backtotop-show');
   }
 }
 
+function adjustButtonPosition() {
+    const stickyButton = document.querySelector(".backtotop");
+    const footer = document.querySelector('footer');
+  const footerTop = footer.getBoundingClientRect().top;
+  // const buttonBottom = stickyButton.getBoundingClientRect().bottom;
 
-window.onscroll = () => {
-    toggleTopButton();
-  }
-  function scrollToTop(){
-    window.scrollTo({top: 0, behavior: 'smooth'});
-  }
-  
-function goTop() {
-  if (window.scrollY > 0) {
-    window.scrollBy(0, -100000); 
-    setTimeout(goTop, 0); 
-  }
-}
+    // Calculate the distance between the button and the footer
+    const distanceToFooter = footerTop - window.innerHeight;
 
-window.onscroll = () => {
-    toggleTopButton();
-  }
-  function scrollToTop(){
-    window.scrollTo({top: 0, behavior: 'smooth'});
-  }
-  
-  function toggleTopButton() {
-    if (document.body.scrollTop > 20 ||
-        document.documentElement.scrollTop > 20) {
-      document.getElementById('backtotop').classList.remove('d-none');
+    // If the button is overlapping the footer, make it relative to the footer
+  if (distanceToFooter < 0) {
+      if (!stickyButton.classList.contains('sticky-to-footer')) {
+            stickyButton.classList.add('sticky-to-footer');
+        }
     } else {
-      document.getElementById('backtotop').classList.add('d-none');
-    }
+        if (stickyButton.classList.contains('sticky-to-footer')) {
+            stickyButton.classList.remove('sticky-to-footer');
+        }
   }
+  
+}
+
+
+// Function to smoothly scroll to the top when the button is clicked
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
+
+// Attach the checkScrollPosition function to the scroll event
+window.addEventListener('scroll', checkScrollPosition);
+
+// Attach the scrollToTop function to the click event of the button
+document.querySelector(".backtotop").addEventListener('click', scrollToTop);
+
+// Attach the adjustButtonPosition function to the scroll event
+window.addEventListener('scroll', adjustButtonPosition);
