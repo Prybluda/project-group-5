@@ -64,3 +64,22 @@
 .backtotop-svg-path {
   transform: scale(0.5);
 }
+
+@media only screen and (min-width: 768px) {
+  .backtotop-svg-path {
+  transform: translateX(26px);
+    transform: scale(0.94);
+  }
+  }
+
+@media only screen and (min-width: 768px) {
+  .backtotop {
+    width: 68px;
+    height: 68px;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  .backtotop-svg {padding-left: 26px;
+  padding-top: 18px;}}
