@@ -1,6 +1,7 @@
 
  
 .backtotop {
+
     position: fixed;
     width: 44px;
     height: 44px;
@@ -27,7 +28,7 @@ opacity: 0;
 .backtotop--show {
     display: block;
     opacity: 1;
-}
+} 
 
 .backtotop-svg {
     position: absolute;

@@ -29,6 +29,6 @@
 /* modal */
 @import url();
 
-@import url();
+@import url('./back-to-top.css');
 
 @import url('./mob-menu.css');

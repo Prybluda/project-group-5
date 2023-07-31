@@ -24,7 +24,7 @@ window.onscroll = () => {
   
 function goTop() {
   if (window.scrollY > 0) {
-    window.scrollBy(0, -75); 
+    window.scrollBy(0, -100000); 
     setTimeout(goTop, 0); 
   }
 }
