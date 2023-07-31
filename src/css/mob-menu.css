@@ -54,8 +54,8 @@
 }
 .mobile-logo-link:hover,
 .mobile-logo-link:focus {
-  color: var(--linear-green);
-  fill: var(--linear-green);
+  color: var(--light-green);
+  fill: var(--light-green);
 }
 .mob-menu-btn {
   width: 24px;
@@ -90,7 +90,7 @@
   transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mob-menu-btn:active .mob-menu-close-icon {
-  stroke: var(--linear-green);
+  stroke: var(--light-green);
 }
 .mobile-menu {
   padding-top: 140px;
@@ -112,7 +112,7 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mob-menu-link:active .active {
-  color: var(--linear-green);
+  color: var(--light-green);
 }
 .gradient {
   overflow: hidden;
