@@ -1,16 +1,6 @@
-
-.about-section {
-  background-color: var(--dark-blue);
-}
 /* Base styles for small device */
 .about-container {
-  min-width: 320px;
-  max-width: 375px;
-  height: 1492px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  height: 1428px;
   /* outline: 2px solid red;
   outline-offset: -2px; */
 }
@@ -18,17 +8,13 @@
 /* Tablet screen */
 @media screen and (min-width: 768px) {
   .about-container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-    height: 1573px;
+    height: 1538px;
   }
 }
 /* Desktop screen */
 @media only screen and (min-width: 1280px) {
   .about-container {
-    max-width: 1216px;
-    height: 927px;
+    height: 978px;
   }
 }
 
@@ -111,7 +97,7 @@
   font-weight: 400;
   line-height: 140%;
   letter-spacing: -0.28px;
-  width: 160px;
+  max-width: 160px;
 }
 /* Tablet */
 @media only screen and (min-width: 768px) {
@@ -157,6 +143,8 @@
     margin: 0;
     position: relative;
     top: -220px;
+    height: 289px;
+    width: 308px;
   }
 }
 
@@ -246,13 +234,13 @@
 @media only screen and (min-width: 768px) {
   .image-container img {
     top: -90px;
-    left: -168px;
+    left: -105px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .image-container img {
-    top: -234px;
-    left: -618px;
+    top: -253px;
+    left: -616px;
   }
 }
 
@@ -272,7 +260,7 @@
     /* position: absolute;
     top: -118px;
     left: -14px; */
-    top: -89px;
+    top: -90px;
     left: 260px;
     width: 350px;
   }
@@ -280,9 +268,7 @@
 
 @media only screen and (min-width: 1280px) {
   .gradient-overlay {
-    top: -231px;
-    /* left: 335px;
-    width: 265px; */
+    top: -250px;
     left: 278px;
     width: 30%;
   }
