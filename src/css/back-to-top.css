@@ -1,0 +1,49 @@
+
+ 
+.backtotop {
+    position: fixed;
+    width: 44px;
+    height: 44px;
+    background-color: #93ABAE;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: inset 0 0 0 3px #93ABAE;
+    z-index: 100;
+    font-size: 16px;
+opacity: 0;
+    border-radius: 8px;
+    transition: .2s;
+
+    cursor: pointer;
+}
+
+.backtotop:hover {
+    background-color: #33a69a;
+    
+    box-shadow: inset 0 0 0 3px #318c83;
+
+}
+
+.backtotop--show {
+    display: block;
+    opacity: 1;
+}
+
+.backtotop-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 100%;
+margin-top: 14px;
+margin-left: 18px;
+}
+
+.backtotop-svg-path {
+    transform: scale(0.5);}
+
+
+ 
