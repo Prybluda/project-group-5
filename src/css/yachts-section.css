@@ -13,26 +13,38 @@ picture {
 }
 
 .yachts-section {
+  padding-bottom: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+  .yachts-section {
+    padding-bottom: 100px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .yachts-section {
+    padding-bottom: 164px;
+  }
 }
 
 .container-yachts {
   min-width: 320px;
   max-width: 375px;
   margin: 0 auto;
-  padding: 0 20px 80px;
+  padding: 0 20px;
 }
 
 @media only screen and (min-width: 768px) {
   .container-yachts {
     max-width: 768px;
-    padding: 0 32px 100px;
+    padding: 0 32px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .container-yachts {
     max-width: 1280px;
-    padding-bottom: 164px;
   }
 }
 
@@ -87,6 +99,7 @@ picture {
 
 .yachts-section-btn {
   color: var(--white);
+  position: relative;
   display: inline-block;
   font-family: inherit;
   font-size: 14px;
