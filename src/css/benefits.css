@@ -1,6 +1,6 @@
 /* base style */
 .section {
-    margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 @media only screen and (min-width: 768px) {
   .section {
@@ -8,33 +8,32 @@
   }
 }
 @media only screen and (min-width: 1280px) {
-    .section {
-        margin-bottom: 164px;
-    }
+  .section {
+    margin-bottom: 164px;
+  }
 }
 
 .container {
-    min-width: 320px;
-    max-width: 375px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+  min-width: 320px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
-        max-width: 1280px;
-
-    }
+  .container {
+    max-width: 1280px;
+  }
 }
 
 /* adaptive */
@@ -60,13 +59,12 @@
 }
 /* postion and display */
 .benefits-img {
-display: block;
+  display: block;
+  position: relative;
 }
-
 
 @media only screen and (min-width: 768px) {
   .benefits-img {
-    
   }
 }
 
@@ -78,7 +76,8 @@ display: block;
   }
 }
 
-.benefits-list-img {}
+.benefits-list-img {
+}
 
 @media only screen and (max-width: 767px) {
   .benefits-list-img:not(:last-child) {
@@ -95,32 +94,31 @@ display: block;
 }
 /* image text style */
 .text-img {
-    color: var(--dark-blue);
-    font-family: DM Sans;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 110%;
-    /* 15.4px */
-    letter-spacing: -0.63px;
+  color: var(--dark-blue);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: -0.63px;
 
-    display: inline-block;
-    padding: 14px 28px;
-    border-radius: 60px;
-    background: var(--white, #F6F5EF);
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: 60px;
+  background: var(--white, #f6f5ef);
 }
 
 @media only screen and (min-width: 768px) {
   .text-img {
-      font-size: 18px;
-      letter-spacing: -0.81px;
+    font-size: 18px;
+    letter-spacing: -0.81px;
   }
 }
 
 /* position text */
 .position-text-diving {
- position: absolute;
- left: 32px;
- bottom: 32px;
+  position: absolute;
+  left: 32px;
+  bottom: 32px;
 }
 .position-text-fishing {
   position: absolute;
@@ -134,35 +132,37 @@ display: block;
 }
 @media only screen and (max-width: 767px) {
   .position-text-diving {
-      left: 24px;
-      bottom: 24px;
-    }
-  
-    .position-text-fishing {
-      left: 24px;
-      bottom: 24px;
-    }
-  
-    .position-text-sunbathing {
-      left: 24px;
-      bottom: 24px;
-    }
-}
+    left: 24px;
+    bottom: 24px;
+  }
 
+  .position-text-fishing {
+    left: 24px;
+    bottom: 24px;
+  }
+
+  .position-text-sunbathing {
+    left: 24px;
+    bottom: 24px;
+  }
+}
 
 /* image style */
 .ben-img {
-border-radius: 41px;
+  border-radius: 41px;
 }
+
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
   .ben-img {
-  border-radius: 44px;
+    border-radius: 44px;
   }
 }
 /* adaptive position */
-.diving-img {}
+.diving-img {
+}
 
-.fishing-img {}
+.fishing-img {
+}
 
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
   .benefits-list-img-fishing {
@@ -170,7 +170,8 @@ border-radius: 41px;
   }
 }
 
- .sunbathing-img {}
+.sunbathing-img {
+}
 
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
   .benefits-list-img-sunbathing {
@@ -192,16 +193,17 @@ border-radius: 41px;
 
   border-radius: 414px;
   opacity: 0.6000000238418579;
-  background: #91AFBA;
+  background: #91afba;
   filter: blur(100px);
   z-index: -5;
   position: absolute;
-  left: -207px;
-  top: 280px;
+  left: -239px;
+  bottom: -20px;
 }
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
   .blur-effect {
-    top: 550px;
+    left: -555px;
+    bottom: 70px;
   }
 }
 
@@ -212,10 +214,10 @@ border-radius: 41px;
 
   border-radius: 323px;
   opacity: 0.6000000238418579;
-  background: #91AFBA;
+  background: #91afba;
   filter: blur(100px);
   z-index: -5;
   position: absolute;
-  left: -207px;
-  top: 280px;
+  left: -240px;
+  bottom: 70px;
 }
