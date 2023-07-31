@@ -213,13 +213,18 @@
   height: 13px;
   background: #1f212d;
   margin: 0 5px;
-  transition: border 250ms ease-in 250ms, background 250ms ease-in 250ms;
+  transition: border 250ms ease-in, background 250ms ease-in;
+}
+
+.swiper-pagination-bullet:hover,
+.swiper-pagination-bullet:focus {
+  border: 1px solid #93abae;
 }
 
 .swiper-pagination-bullet-active {
   border: 1px solid #93abae;
   background: #88b3b9;
-  transition: border 250ms ease-out, background 250ms ease-out;
+  transition: border 250ms ease-out, background 250ms ease-out 100ms;
 }
 
 .reviews-swiper {
