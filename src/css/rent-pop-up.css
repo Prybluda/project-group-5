@@ -108,9 +108,10 @@
   .pop-gradient {
     top: 13%;
     left: 27%;
+
     width: 265px;
     height: 265px;
-  }
+
 
   .pop-text {
     margin: 0 64px 64px 64px;
