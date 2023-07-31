@@ -15,16 +15,16 @@
         </p>
       </li>
     </ul>
-    <div>
-      <ul class="rev-card-container">
-        <li class="reviews-card list">
-          <div class="rev-card-content">
+    <div class="reviews-total">
+      <div class="reviews-swiper swiper">
+        <div class="reviews-swiper-wrapper swiper-wrapper">
+          <div class="reviews-card swiper-slide">
             <img
-              srcset="./img/reviews/john.png 1x, ./img/reviews/john@2x.png 2x"
-              src="./img/reviews/john.png"
-              width="48"
-              alt="photo our clients"
               class="rev-clients"
+              src="./img/reviews/john.png"
+              alt="photo our clients"
+              srcset="./img/reviews/john.png 1x, ./img/reviews/john@2x.png 2x"
+              width="48"
             />
             <div class="rev-card-description">
               <h3 class="card-name">John Wax</h3>
@@ -36,18 +36,16 @@
               </p>
             </div>
           </div>
-        </li>
-        <li class="reviews-card list">
-          <div class="rev-card-content">
+          <div class="reviews-card swiper-slide">
             <img
+              class="rev-clients"
+              src="./img/reviews/victoria.png"
+              alt="photo our clients"
               srcset="
                 ./img/reviews/victoria.png    1x,
                 ./img/reviews/victoria@2x.png 2x
               "
-              src="./img/reviews/victoria.png"
               width="48"
-              alt="photo our clients"
-              class="rev-clients"
             />
             <div class="rev-card-description">
               <h3 class="card-name">Victoria Romashenko</h3>
@@ -59,15 +57,13 @@
               </p>
             </div>
           </div>
-        </li>
-        <li class="reviews-card list">
-          <div class="rev-card-content">
+          <div class="reviews-card swiper-slide">
             <img
-              srcset="./img/reviews/ihor.png 1x, ./img/reviews/ihor@2x.png 2x"
-              src="./img/reviews/ihor.png"
-              width="48"
-              alt="photo our clients"
               class="rev-clients"
+              src="./img/reviews/ihor.png"
+              alt="photo our clients"
+              srcset="./img/reviews/ihor.png 1x, ./img/reviews/ihor@2x.png 2x"
+              width="48"
             />
             <div class="rev-card-description">
               <h3 class="card-name">Ihor Trachuk</h3>
@@ -78,8 +74,9 @@
               </p>
             </div>
           </div>
-        </li>
-      </ul>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
     </div>
   </div>
 </section>
