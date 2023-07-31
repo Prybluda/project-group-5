@@ -56,7 +56,7 @@
 
 .pop-gradient {
   position: absolute;
-  top: 13%;
+  top: 17%;
   left: 29%;
   width: 142px;
   height: 142px;
@@ -106,8 +106,8 @@
   }
 
   .pop-gradient {
-    top: 27%;
-    left: 37%;
+    top: 13%;
+    left: 27%;
   }
 
   .pop-text {
