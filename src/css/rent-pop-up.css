@@ -94,9 +94,8 @@
   .pop-modal {
     min-width: 570px;
   }
-}
 
-  .pop-button-close{
+  .pop-button-close {
     top: 32px;
     right: 32px;
   }
@@ -128,3 +127,4 @@
     font-size: 16px;
     letter-spacing: -0.32px;
   }
+}
