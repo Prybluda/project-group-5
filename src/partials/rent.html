@@ -1,30 +1,54 @@
 <section class="rent" id="rentblock">
-  <div class="rent-container container ">
+  <div class="rent-container container">
     <div class="rent-top">
       <h2 class="rent-title">Rent a yacht now</h2>
 
       <picture>
-        <source srcset="./img/rent_img/yaht_under_title/laptop/imgyaht-dt.png 1x, 
-                      ./img/rent_img/yaht_under_title/laptop/imgyaht@2x-dt.png 2x" media="(min-width: 1200px)" />
-        <source srcset="./img/rent_img/yaht_under_title/tab/imgyaht-tab.png 1x, 
-                      ./img/rent_img/yaht_under_title/tab/imgyaht@2x-tab.png 2x" media="(min-width: 768px)" />
-        <source srcset="./img/rent_img/yaht_under_title/mob/imgyaht-mob.png 1x, 
-                      ./img/rent_img/yaht_under_title/mob/imgyaht@2x-mob.png 2x" media="(max-width: 767px)" />
+        <source
+          srcset="
+            ./img/rent_img/yaht_under_title/laptop/imgyaht-dt.png    1x,
+            ./img/rent_img/yaht_under_title/laptop/imgyaht@2x-dt.png 2x
+          "
+          media="(min-width: 1200px)"
+        />
+        <source
+          srcset="
+            ./img/rent_img/yaht_under_title/tab/imgyaht-tab.png    1x,
+            ./img/rent_img/yaht_under_title/tab/imgyaht@2x-tab.png 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ./img/rent_img/yaht_under_title/mob/imgyaht-mob.png    1x,
+            ./img/rent_img/yaht_under_title/mob/imgyaht@2x-mob.png 2x
+          "
+          media="(max-width: 767px)"
+        />
 
-        <img class="rent-picture-under-title" src="./img/rent_img/yaht_under_title/laptop/imgyaht-dt.png" alt="Yaht"
-          width="259" height="187">
+        <img
+          class="rent-picture-under-title"
+          src="./img/rent_img/yaht_under_title/laptop/imgyaht-dt.png"
+          alt="Yaht"
+          width="259"
+          height="187"
+        />
       </picture>
-
     </div>
 
     <form class="rent-form">
-
       <div class="rent-field">
         <label class="rent-input-label" for="user-name">
           <span class="rent-input-text">Full Name</span>
         </label>
         <div class="rent-input-line">
-          <input class="rent-input" type="text" id="user-name" name="user-name" minlength="2">
+          <input
+            class="rent-input"
+            type="text"
+            id="user-name"
+            name="user-name"
+            minlength="2"
+          />
         </div>
       </div>
 
@@ -33,7 +57,13 @@
           <span class="rent-input-text">Email</span>
         </label>
         <div class="rent-input-line">
-          <input class="rent-input" type="email" id="input-email" name="input-email" minlength="9">
+          <input
+            class="rent-input"
+            type="email"
+            id="input-email"
+            name="input-email"
+            minlength="9"
+          />
         </div>
       </div>
 
@@ -42,7 +72,13 @@
           <span class="rent-input-text">Phone number</span>
         </label>
         <div class="rent-input-line">
-          <input class="rent-input" type="tel" id="input-phone" name="input-phone" minlength="9">
+          <input
+            class="rent-input"
+            type="tel"
+            id="input-phone"
+            name="input-phone"
+            minlength="9"
+          />
         </div>
       </div>
 
@@ -50,21 +86,23 @@
         <label class="rent-input-label" for="user-comment">
           <span class="rent-input-text">Comment</span>
         </label>
-        <textarea class="rent-input rent-textarea" name="user-comment" id="user-comment" cols="30" rows="10"></textarea>
+        <textarea
+          class="rent-input rent-textarea"
+          name="user-comment"
+          id="user-comment"
+          cols="30"
+          rows="10"
+        ></textarea>
       </div>
 
       <button class="rent-button" type="submit" data-modal-open>
         Send
         <svg class="rent-button-icon">
-          <use href="../img/icon.svg#icon-arrow"></use>
+          <use href="./img/icon.svg#icon-arrow"></use>
         </svg>
       </button>
-
     </form>
-    
+
     <div class="rent-gradient"></div>
-    
-
   </div>
-
 </section>

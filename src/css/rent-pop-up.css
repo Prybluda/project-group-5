@@ -56,7 +56,7 @@
 
 .pop-gradient {
   position: absolute;
-  top: 13%;
+  top: 17%;
   left: 29%;
   width: 142px;
   height: 142px;
@@ -94,6 +94,7 @@
   .pop-modal {
     min-width: 570px;
   }
+}
 
   .pop-button-close{
     top: 32px;
@@ -106,8 +107,11 @@
   }
 
   .pop-gradient {
-    top: 27%;
-    left: 37%;
+    top: 13%;
+    left: 27%;
+
+    width: 265px;
+    height: 265px;
   }
 
   .pop-text {
@@ -124,4 +128,3 @@
     font-size: 16px;
     letter-spacing: -0.32px;
   }
-}
