@@ -3,7 +3,7 @@
     --dark-blue: #11131F;
     --blue-two:#1F212D;
     --linear-green:linear-gradient(107deg, rgb(190, 199, 194) 0%, rgb(161, 181, 186) 100%);
-    --linear-gradient:(107deg, #bec7c2 0%, #a1b5ba 100%);
+    /* --linear-gradient:(107deg, #bec7c2 0%, #a1b5ba 100%); */
     --light-green: #93ABAE;
     --error-border: #f30d0d36; /*RentBlock*/
 }
