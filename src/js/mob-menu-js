@@ -1,0 +1,53 @@
+(() => {
+    const mobileMenu = document.querySelector('.js-menu-container');
+    const openMenuBtn = document.querySelector('.js-open-menu');
+  const closeMenuBtn = document.querySelector('.js-close-menu');
+  
+    const toggleMenu = () => {
+      const isMenuOpen =
+        openMenuBtn.getAttribute('aria-expanded') === 'true' || false;
+      openMenuBtn.setAttribute('aria-expanded', !isMenuOpen);
+      mobileMenu.classList.toggle('is-open');
+  
+      const scrollLockMethod = !isMenuOpen
+        ? 'disableBodyScroll'
+        : 'enableBodyScroll';
+      bodyScrollLock[scrollLockMethod](document.body);
+  };
+
+  const closeMobileMenu = () => {
+        mobileMenu.classList.remove('is-open');
+        openMenuBtn.setAttribute('aria-expanded', false);
+        bodyScrollLock.enableBodyScroll(document.body);
+    };
+
+    // Attach click event listeners to mobile menu links
+    const mobileMenuLinks = document.querySelectorAll('.mob-menu-link');
+    mobileMenuLinks.forEach(link => {
+        link.addEventListener('click', event => {
+            event.preventDefault(); // Prevent the default anchor behavior (scrolling to the section)
+            closeMobileMenu(); // Close the mobile menu when a link is clicked
+            const targetSectionId = link.getAttribute('href');
+            const targetSection = document.querySelector(targetSectionId);
+            if (targetSection) {
+                // Scroll to the target section after a short delay (to allow the menu to close first)
+                setTimeout(() => {
+                    targetSection.scrollIntoView({ behavior: 'smooth' });
+                }, 300);
+            }
+        });
+    });
+  
+  
+    openMenuBtn.addEventListener('click', toggleMenu);
+  closeMenuBtn.addEventListener('click', toggleMenu);
+  
+    // Close the mobile menu on wider screens if the device orientation changes
+    window.matchMedia('(min-width: 768px)').addEventListener('change', e => {
+      if (!e.matches) return;
+      mobileMenu.classList.remove('is-open');
+      openMenuBtn.setAttribute('aria-expanded', false);
+      bodyScrollLock.enableBodyScroll(document.body);
+    });
+})();
+  

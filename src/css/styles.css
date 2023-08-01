@@ -2,33 +2,40 @@
 @import url('./reset.css');
 @import url('./container.css');
 @import url('./variables.css');
+
 /* header */
 @import url('./header.css');
+
 /* hero */
-
-@import url();
-
 @import url('./hero_section.css');
-/* products */
+
+/* about */
 @import url('./about.css');
 
+/* Yacht */
 @import url('./yachts-section.css');
 
-@import url('./benefits.css');
 /* benefits */
+@import url('./benefits.css');
 
 /* rent block */
 @import url('./rent.css');
+
 /* rent modal */
 @import url('./rent-pop-up.css');
 
+/* reviews */
 @import url('./reviews.css');
 
 /* footer */
 @import url('./footer.css');
+
+
+
+
+@import url('./back-to-top.css');
+
+
+
 /* modal */
-@import url();
-
-@import url();
-
 @import url('./mob-menu.css');

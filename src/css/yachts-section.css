@@ -113,6 +113,12 @@ picture {
   z-index: 2;
 }
 
+.yachts-section-btn:hover,
+.yachts-section-btn:focus {
+  border-color: var(--light-green);
+  color: var(--light-green);
+}
+
 @media only screen and (min-width: 768px) {
   .yachts-section-btn {
     font-size: 18px;
