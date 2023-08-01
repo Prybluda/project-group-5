@@ -1,19 +1,21 @@
 /* base style */
-.section {
+.section-benefits {
   margin-bottom: 80px;
 }
+
 @media only screen and (min-width: 768px) {
-  .section {
+  .section-benefits {
     margin-bottom: 105px;
   }
 }
+
 @media only screen and (min-width: 1280px) {
-  .section {
+  .section-benefits {
     margin-bottom: 164px;
   }
 }
 
-.container {
+.container-benefits {
   min-width: 320px;
   max-width: 375px;
   margin-left: auto;
@@ -23,7 +25,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+  .container-benefits {
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
@@ -31,32 +33,36 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
+  .container-benefits {
     max-width: 1280px;
   }
 }
 
 /* adaptive */
 @media only screen and (min-width: 768px) {
-  .section-mob {
+  .container-mob {
     display: none;
   }
 }
+
 @media only screen and (max-width: 767px) {
-  .section-tab {
+  .container-tab {
     display: none;
   }
 }
+
 @media only screen and (min-width: 1280px) {
-  .section-tab {
+  .container-tab {
     display: none;
   }
 }
+
 @media only screen and (max-width: 1279px) {
-  .section-desc {
+  .container-desc {
     display: none;
   }
 }
+
 /* postion and display */
 .benefits-img {
   display: block;
@@ -64,8 +70,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .benefits-img {
-  }
+  .benefits-img {}
 }
 
 @media only screen and (min-width: 1280px) {
@@ -76,22 +81,24 @@
   }
 }
 
-.benefits-list-img {
-}
+.benefits-list-img {}
 
 @media only screen and (max-width: 767px) {
   .benefits-list-img:not(:last-child) {
     margin-bottom: 24px;
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
   .benefits-list-img:not(:last-child) {
     margin-bottom: 32px;
   }
 }
+
 .benefits-style {
   position: relative;
 }
+
 /* image text style */
 .text-img {
   color: var(--dark-blue);
@@ -120,16 +127,19 @@
   left: 32px;
   bottom: 32px;
 }
+
 .position-text-fishing {
   position: absolute;
   left: 32px;
   bottom: 32px;
 }
+
 .position-text-sunbathing {
   position: absolute;
   left: 32px;
   bottom: 32px;
 }
+
 @media only screen and (max-width: 767px) {
   .position-text-diving {
     left: 24px;
@@ -157,12 +167,11 @@
     border-radius: 44px;
   }
 }
-/* adaptive position */
-.diving-img {
-}
 
-.fishing-img {
-}
+/* adaptive position */
+.diving-img {}
+
+.fishing-img {}
 
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
   .benefits-list-img-fishing {
@@ -170,8 +179,7 @@
   }
 }
 
-.sunbathing-img {
-}
+.sunbathing-img {}
 
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
   .benefits-list-img-sunbathing {
@@ -200,6 +208,7 @@
   left: -239px;
   bottom: -20px;
 }
+
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
   .blur-effect {
     left: -555px;
