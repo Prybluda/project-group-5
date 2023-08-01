@@ -104,6 +104,12 @@
   margin-bottom: 40px;
 }
 
+@media only screen and (min-width: 1280px) {
+  .hero_btn-div {
+    margin-bottom: 0px;
+  }
+}
+
 .hero_get-started_btn {
   display: flex;
   padding: 14px 28px;
