@@ -69,6 +69,7 @@
   background: var(--linear-green);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  padding-right: 10px;
   /* font-style: italic; */
 }
 
@@ -152,7 +153,7 @@
 
 @media only screen and (max-width: 767px) {
   .hero-image-bg {
-    max-width: 335px;
+    max-width: 100%;
   }
 }
 
@@ -173,9 +174,18 @@
 .hero_img-man {
   position: absolute;
   top: 35px;
-  left: 214px;
+  left: 215px;
   width: 133px;
   height: 133px;
+}
+
+@media only screen and (max-width: 360px) {
+  .hero_img-man {
+    top: 35px;
+    left: 178px;
+    width: 115px;
+    height: 115px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -191,7 +201,7 @@
   position: absolute;
   top: 152px;
   left: 24px;
-  width: 287px;
+  max-width: 80%;
   height: 167px;
   z-index: 3;
 }
@@ -312,7 +322,7 @@
 }
 
 .hero-img-group_main-text_book {
-  width: 169px;
+  max-width: 169px;
   font-size: 14px;
   line-height: 140%;
   letter-spacing: -0.63px;
