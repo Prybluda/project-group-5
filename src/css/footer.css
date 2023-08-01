@@ -33,6 +33,11 @@
   gap: 8px;
   margin-bottom: 41px;
 }
+@media only screen and (min-width: 768px) {
+  .footer-svg-logo {
+    margin-bottom: 0;
+  }
+}
 .footer-menu {
   color: var(--white);
   font-family: DM Sans;
@@ -79,13 +84,22 @@
 .footer-block {
   margin-bottom: 40px;
 }
+@media only screen and (min-width: 768px) {
+  .footer-block {
+    margin-bottom: 0;
+  }
+}
 .footer-year {
   display: flex;
   justify-content: center;
   gap: 14px;
   margin-bottom: 14px;
 }
-
+@media only screen and (min-width: 768px) {
+  .footer-year {
+    margin-bottom: 16px;
+  }
+}
 @media only screen and (min-width: 768px) {
   .footer-year {
     gap: 32px;
@@ -94,6 +108,18 @@
 }
 .footer-about {
   padding-bottom: 14px;
+}
+
+@media only screen and (min-width: 1280px) {
+  .footer-about {
+    padding-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .footer-about {
+    padding-bottom: 0;
+  }
 }
 
 .footer-container {
