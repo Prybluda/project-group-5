@@ -120,6 +120,10 @@
   border: none;
 }
 
+.hero_get-started_btn:hover {
+  background: #88b3b9;
+}
+
 .hero_get-started_text,
 .hero_explore_text {
   color: var(--white, #f6f5ef);
@@ -145,6 +149,14 @@
   border-radius: 60px;
   border: 1px solid var(--white, #f6f5ef);
   background-color: transparent;
+}
+
+.hero_explore_btn:hover {
+  border: 1px solid var(--light-green, #93abae);
+}
+
+.hero_explore_btn:hover .hero_explore_text {
+  color: var(--light-green, #93abae);
 }
 
 .hero_img-group {
