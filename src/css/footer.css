@@ -48,9 +48,9 @@
 
 .footer-menu {
   color: var(--white);
-  font-family: DM Sans;
+ 
   font-size: 14px;
-  font-style: normal;
+  
   font-weight: 700;
   line-height: 1.18;
   letter-spacing: 0.42px;
@@ -65,9 +65,9 @@
 }
 .footer-social-networks {
   color: var(--white);
-  font-family: DM Sans;
+ 
   font-size: 14px;
-  font-style: normal;
+
   font-weight: 700;
   line-height: 1.1;
   margin-bottom: 16px;
@@ -222,10 +222,12 @@
 .footer-social-link:focus {
   border-color: #93abae;
   color: var(--light-green);
+  stroke: var(--light-green);
 }
-/* .foter-social-link:hover + .footer-icons-social {
-  fill: var(--light-green);
+.footer-social-link:hover .footer-icons-social {
+  stroke: var(--light-green);
+  
 }
-.foter-social-link:focus +.footer-icons-social {
-  fill: var(--light-green);
-} */
+.footer-social-link:focus .footer-icons-social {
+  stroke: var(--light-green);
+}
