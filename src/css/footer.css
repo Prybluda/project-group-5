@@ -218,14 +218,14 @@
   }
 }
 
-.foter-social-link:hover,
-.foter-social-link:focus {
+.footer-social-link:hover,
+.footer-social-link:focus {
   border-color: #93abae;
   color: var(--light-green);
 }
-.foter-social-link:hover .footer-icons-social {
-  stroke: var(--light-green);
+/* .foter-social-link:hover + .footer-icons-social {
+  fill: var(--light-green);
 }
-.foter-social-link:focus .footer-icons-social {
-  stroke: var(--light-green);
-}
+.foter-social-link:focus +.footer-icons-social {
+  fill: var(--light-green);
+} */
