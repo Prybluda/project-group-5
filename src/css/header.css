@@ -3,14 +3,14 @@
     max-width: inherit;
     background-size: cover;
     font-family: 'DM Sans';
+    border-bottom: 2px solid rgba(246, 245, 239, 0.20);
+    padding: 24px 0;
  }
 .header-nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 2px solid rgba(246, 245, 239, 0.20);
     width: 100%;
-    padding: 24px 0;
 } 
 .header-logo-box {
     display: flex;
@@ -86,11 +86,7 @@ color: var(--white);
      }
      .header-container{
         max-width: inherit;
-        padding-left: 32px;
-        padding-right: 32px;
-     }
-     .header-nav{
-        padding: 32px 0;
+        padding: 32px 32px;
      }
      .header-logo-link{
         font-size: 18px;
