@@ -159,13 +159,7 @@
 
 /* image style */
 .ben-img {
-  border-radius: 41px;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1279px) {
-  .ben-img {
-    border-radius: 44px;
-  }
+  border-radius: 44px;
 }
 
 /* adaptive position */
