@@ -8,6 +8,13 @@
   display: inline-block;
 }
 
+.footer-logo:hover {
+  color: #bec7c2;
+}
+
+.footer-logo:focus {
+  color: #bec7c2;
+}
 @media only screen and (min-width: 768px) {
   .jacht-icon {
     width: 20px;
@@ -38,6 +45,7 @@
     margin-bottom: 0;
   }
 }
+
 .footer-menu {
   color: var(--white);
   font-family: DM Sans;
@@ -46,6 +54,14 @@
   font-weight: 700;
   line-height: 1.18;
   letter-spacing: 0.42px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-menu:hover {
+  color: #bec7c2;
+}
+
+.footer-menu:focus {
+  color: #bec7c2;
 }
 .footer-social-networks {
   color: var(--white);
@@ -65,6 +81,11 @@
     display: flex;
     justify-content: space-between;
   }
+}
+.footer-icons-social {
+  width: 32px;
+  height: 32px;
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media only screen and (min-width: 768px) {
@@ -107,18 +128,18 @@
   }
 }
 .footer-about {
-  padding-bottom: 14px;
+  margin-bottom: 14px;
 }
 
 @media only screen and (min-width: 1280px) {
   .footer-about {
-    padding-bottom: 0;
+    margin-bottom: 0;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .footer-about {
-    padding-bottom: 0;
+    margin-bottom: 0;
   }
 }
 
@@ -182,4 +203,29 @@
     filter: blur(100px);
     left: 20%;
   }
+}
+.footer-social-link {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media only screen and (min-width: 768px) {
+  .footer-social-link {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.foter-social-link:hover,
+.foter-social-link:focus {
+  border-color: #93abae;
+  color: var(--light-green);
+}
+.foter-social-link:hover .footer-icons-social {
+  stroke: var(--light-green);
+}
+.foter-social-link:focus .footer-icons-social {
+  stroke: var(--light-green);
 }
