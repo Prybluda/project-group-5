@@ -15,7 +15,7 @@
   }
 }
 
-.container-benefits {
+.container {
   min-width: 320px;
   max-width: 375px;
   margin-left: auto;
@@ -25,7 +25,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container-benefits {
+  .container {
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
@@ -33,7 +33,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container-benefits {
+  .container {
     max-width: 1280px;
   }
 }
@@ -159,13 +159,7 @@
 
 /* image style */
 .ben-img {
-  border-radius: 41px;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1279px) {
-  .ben-img {
-    border-radius: 44px;
-  }
+  border-radius: 44px;
 }
 
 /* adaptive position */
